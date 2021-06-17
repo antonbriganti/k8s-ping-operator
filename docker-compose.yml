@@ -1,5 +1,9 @@
 services:
-  test:
-    build:
-      context: .
-      target: test
+    test:
+        build:
+            context: .
+            target: test
+    lint:
+        build:
+            context: .
+            target: lint
