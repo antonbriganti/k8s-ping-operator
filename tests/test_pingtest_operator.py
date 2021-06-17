@@ -57,5 +57,5 @@ class TestPingTestOperator(unittest.TestCase):
 
         pingtest_operator = PingTestOperator(mocked_pinger)
         actual_response = pingtest_operator.process_pingtest_request(test_spec)
-        
+
         self.assertEqual(expected_response, actual_response)
