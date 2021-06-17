@@ -1,0 +1,4 @@
+apiVersion: app.seek.com/v1
+kind: PingTest
+metadata:
+  name: ping-test-missing-fields

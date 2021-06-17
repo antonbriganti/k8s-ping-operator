@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anton-pingtest-operator
+  namespace: operators
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      application: anton-pingtest-operator
+  template:
+    metadata:
+      labels:
+        application: anton-pingtest-operator
+    spec:
+      serviceAccountName: anton-pingtest-account
+      containers:
+      - name: operator
+        image: antonbriganti/pingtest-operator:code-app-complete
+
+        

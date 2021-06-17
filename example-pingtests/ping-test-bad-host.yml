@@ -1,0 +1,7 @@
+apiVersion: app.seek.com/v1
+kind: PingTest
+metadata:
+  name: ping-test-bad-host
+spec:
+  host: google.comm
+  count: 5
