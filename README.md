@@ -19,7 +19,7 @@ here's a script to quickly deploy everything needed:
 
 an example CRD looks something like this:
 ```yaml
-apiVersion: app.seek.com/v1
+apiVersion: app.anton.com/v1
 kind: PingTest
 metadata:
   name: ping-test-good

@@ -1,4 +1,4 @@
-apiVersion: app.seek.com/v1
+apiVersion: app.anton.com/v1
 kind: PingTest
 metadata:
   name: ping-test-good

@@ -30,7 +30,7 @@ rules:
     verbs: [create, patch]
 
   # Application: ability to look at pingtest resource and patch as needed
-  - apiGroups: [app.seek.com]
+  - apiGroups: [app.anton.com]
     resources: [pingtests]
     verbs: [list, watch, patch]
 ---

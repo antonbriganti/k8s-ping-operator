@@ -18,6 +18,6 @@ spec:
       serviceAccountName: anton-pingtest-account
       containers:
       - name: operator
-        image: antonbriganti/pingtest-operator:code-app-complete
+        image: antonbriganti/pingtest-operator:latest
 
         
